@@ -20,6 +20,8 @@ __[Intervalue](https://www.inve.one/)__ :  [Whitepaper](https://www.inve.one/Int
 
 __[MOAC](https://www.moac.io/)__ :  [Whitepaper](https://www.moac.io/resource_Whitepaper.html)
 
+__[Near Protocol](https://nearprotocol.com/)__ : [PositionPaper](https://drive.google.com/drive/u/3/folders/13ktVNuyor8HES9OxxjwlPZHdmRVx_yXT)
+
 __[Nervos](https://www.nervos.org/)__ :  [Whitepaper](https://github.com/NervosFoundation/binary/blob/master/whitepaper/nervos-ckb.pdf), [Github](https://github.com/NervosFoundation)
 
 __[Quarkchain](https://quarkchain.io/)__ :  [Whitepaper](https://quarkchain.io/QUARK%20CHAIN%20Public%20Version%200.3.5.pdf), [Github](https://github.com/QuarkChain)
