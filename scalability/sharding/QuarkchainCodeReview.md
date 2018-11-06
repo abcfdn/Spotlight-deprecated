@@ -17,11 +17,11 @@ QuarkChain is a high-throughput blockchain that aims to achieve millions of tran
 This review is done on Oct 30th against version [2d4f43f54523e6c1768432690cabe496aa860107](https://github.com/QuarkChain/pyquarkchain/tree/2d4f43f54523e6c1768432690cabe496aa860107/quarkchain).
 
 
-##Why Code Review
+## Why Code Review
 
 There are many writings on blockchain projects’ innovative ideas and sparking business plans, but not enough professional review on the engineering quality of a project. However the quality of the project codebase is important in the open source world as it directly affect future developer contributions and the eco-system built-up. This article offers an overview for Quarkchain’s code structure, contribution activeness and alignance with their white paper. It can also be used as a guide if you plan to contribute to their codebase. 
 
-###Code Structure
+### Code Structure
 
 [Repo Link](https://github.com/QuarkChain/pyquarkchain/tree/)
 
@@ -33,7 +33,7 @@ There are many writings on blockchain projects’ innovative ideas and sparking 
 
 For code forked from ethereum, Quarkchain made some customizations to fit their sharding design and added a significant amount of tests to ensure compatibility. One example is the [account](https://github.com/QuarkChain/pyquarkchain/blob/2d4f43f54523e6c1768432690cabe496aa860107/quarkchain/accounts.py#L40) and [address](https://github.com/QuarkChain/pyquarkchain/blob/2d4f43f54523e6c1768432690cabe496aa860107/quarkchain/core.py#L325) Model: 4 additional bytes is added to the account address as shard ID, extending which from 20 bytes to 24 bytes. 4 new fields are also added to the [transaction](https://github.com/QuarkChain/pyquarkchain/blob/2d4f43f54523e6c1768432690cabe496aa860107/quarkchain/evm/transactions.py#L61-L64) model and [transaction validation](https://github.com/QuarkChain/pyquarkchain/blob/2d4f43f54523e6c1768432690cabe496aa860107/quarkchain/cluster/shard_state.py#L193) logic is thus adjusted accordingly.
 
-###Repo State:
+### Repo State:
 
 The repo is being actively maintained.
  
@@ -47,7 +47,7 @@ Additional thumb-ups from our reviewers:
  - Issue/Pull Request is being used.
  - Wiki is well maintained
 
-###Code style:
+### Code style:
 
 Additional thumb-ups from our reviewers: 
  
@@ -56,7 +56,7 @@ Additional thumb-ups from our reviewers:
  - Sufficient and clear tests for corner cases/attacks: [Example](https://github.com/QuarkChain/pyquarkchain/blob/2d4f43f54523e6c1768432690cabe496aa860107/quarkchain/cluster/tests/test_root_state.py#L371)
  - Good abstraction of component: E.g. db module is well abstracted, which supports multiple dbs ([code](https://github.com/QuarkChain/pyquarkchain/blob/master/quarkchain/db.py)).
 
-###Sharding
+### Sharding
 
 Comparing to other blockchain sharding projects, Quarkchain adopts the concept of "clustering" (inspired by [Google's Bigtable](https://en.wikipedia.org/wiki/Bigtable)) in design, where each cluster(full node) consists of 1 master node and many slave nodes. Every cluster(full node) contains all information in the blockchain network. In each cluster, one shard is only handled by one slave node, but one slave node can handle multiple shards. When new block comes, master node will assign the block to a slave node. Such design simplifies the routing between different shards(via master nodes) but also makes master node a single point failure in the cluster, though such failure won't affect the security of the whole network thanks to replica. Such design also allows light nodes become a cluster and operates as a full node which helps ensure the decentralization of the blockchain.
 
