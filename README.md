@@ -35,17 +35,17 @@ __[Zillqa](https://zilliqa.com/)__ : [Whitepaper](https://docs.zilliqa.com/white
 
 __[Nervos](https://www.nervos.org/)__ :  [Whitepaper](https://github.com/NervosFoundation/binary/blob/master/whitepaper/nervos-ckb.pdf), [Github](https://github.com/NervosFoundation)
 
-__[Lightning network](https://lightning.network/)__
+__[Lightning network](https://lightning.network/)__: [Whitepaper](https://lightning.network/lightning-network-paper.pdf)
 
-__[Raiden Network](https://raiden.network/)__
+__[Raiden Network](https://raiden.network/)__: 
 
-__[Celer Network](https://www.celer.network/)__
+__[Celer Network](https://www.celer.network/)__: [Whitepaper](https://www.celer.network/doc/CelerNetwork-Whitepaper.pdf)
 
 __[Counterfactual](https://www.counterfactual.com/)__: [Whitepaper](https://l4.ventures/papers/statechannels.pdf)
 
 __[Spank Chain](https://spankchain.com/)__: [Whitepaper](https://spankchain.com/static/SpankChain%20Whitepapaer%20(EN).pdf)
 
-__[Liquidity Network](https://liquidity.network/)__
+__[Liquidity Network](https://liquidity.network/)__: [Whitepaper](https://liquidity.network/whitepaper_Liquidity_Network.pdf)
 
 __[Trinity](https://trinity.tech/#/)__
 
@@ -59,7 +59,7 @@ __[Finality Labs](https://finalitylabs.io/)__
 
 __[10fold](https://www.tenfoldprotocol.io/)__
 
-__[Truebit](https://truebit.io/)__
+__[Truebit](https://truebit.io/)__: [Whitepaper](https://people.cs.uchicago.edu/~teutsch/papers/truebit.pdf)
 
 __[Plasma](https://plasma.io/)__: [Whitepaper](https://plasma.io/plasma.pdf)
 
