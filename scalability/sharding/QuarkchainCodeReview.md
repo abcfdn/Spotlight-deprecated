@@ -34,6 +34,7 @@ There are many writings on blockchain projects’ innovative ideas and sparking 
 For code forked from ethereum, Quarkchain made some customizations to fit their sharding design and added a significant amount of tests to ensure compatibility. One example is the [account](https://github.com/QuarkChain/pyquarkchain/blob/2d4f43f54523e6c1768432690cabe496aa860107/quarkchain/accounts.py#L40) and [address](https://github.com/QuarkChain/pyquarkchain/blob/2d4f43f54523e6c1768432690cabe496aa860107/quarkchain/core.py#L325) Model: 4 additional bytes is added to the account address as shard ID, extending which from 20 bytes to 24 bytes. 4 new fields are also added to the [transaction](https://github.com/QuarkChain/pyquarkchain/blob/2d4f43f54523e6c1768432690cabe496aa860107/quarkchain/evm/transactions.py#L61-L64) model and [transaction validation](https://github.com/QuarkChain/pyquarkchain/blob/2d4f43f54523e6c1768432690cabe496aa860107/quarkchain/cluster/shard_state.py#L193) logic is thus adjusted accordingly.
 
 ###Repo State:
+
 The repo is being actively maintained.
  
  - 15 branches
@@ -47,6 +48,7 @@ Additional thumb-ups from our reviewers:
  - Wiki is well maintained
 
 ###Code style:
+
 Additional thumb-ups from our reviewers: 
  
  - Clear comments
@@ -55,6 +57,7 @@ Additional thumb-ups from our reviewers:
  - Good abstraction of component: E.g. db module is well abstracted, which supports multiple dbs ([code](https://github.com/QuarkChain/pyquarkchain/blob/master/quarkchain/db.py)).
 
 ###Sharding
+
 Comparing to other blockchain sharding projects, Quarkchain adopts the concept of "clustering" (inspired by [Google's Bigtable](https://en.wikipedia.org/wiki/Bigtable)) in design, where each cluster(full node) consists of 1 master node and many slave nodes. Every cluster(full node) contains all information in the blockchain network. In each cluster, one shard is only handled by one slave node, but one slave node can handle multiple shards. When new block comes, master node will assign the block to a slave node. Such design simplifies the routing between different shards(via master nodes) but also makes master node a single point failure in the cluster, though such failure won't affect the security of the whole network thanks to replica. Such design also allows light nodes become a cluster and operates as a full node which helps ensure the decentralization of the blockchain.
 
 Each cluster, which is equivalent to a full node, consists of [one master server](https://github.com/QuarkChain/pyquarkchain/blob/2d4f43f54523e6c1768432690cabe496aa860107/quarkchain/cluster/master.py#L531) and a bunch of slave servers. Masters mine for the root blocks. Also, they manage the connections to all slaves within the cluster through a slave_pool. The initialization of a master setups both master-slaves connections and slave-slave connections. [One slave server](https://github.com/QuarkChain/pyquarkchain/blob/2d4f43f54523e6c1768432690cabe496aa860107/quarkchain/cluster/slave.py#L777) can run one or more branches, one shard per branch. Slave mines for minor blocks, which can run different consensus protocol. The difficulty of mining will be adjusted when the minor block headers are included in the root block. <span style="color:red"> ___The root block validates the header and difficulties of minor blocks, but not every transaction___ </span>.
