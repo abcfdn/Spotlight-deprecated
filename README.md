@@ -30,3 +30,50 @@ __[RChain](https://www.rchain.coop/)__ :  [Documentation](https://rchain-archite
 
 __[Zillqa](https://zilliqa.com/)__ : [Whitepaper](https://docs.zilliqa.com/whitepaper.pdf), [PositionPaper](https://docs.zilliqa.com/positionpaper.pdf)
 
+__[Lightning network](https://lightning.network/)__
+
+__[Raiden Network](https://raiden.network/)__
+
+__[Celer Network](https://www.celer.network/)__
+
+__[Counterfactual](https://www.counterfactual.com/)__: [Whitepaper](https://l4.ventures/papers/statechannels.pdf)
+
+__[Spank Chain](https://spankchain.com/)__: [Whitepaper](https://spankchain.com/static/SpankChain%20Whitepapaer%20(EN).pdf)
+
+__[Liquidity Network](https://liquidity.network/)__
+
+__[Trinity](https://trinity.tech/#/)__
+
+__[Perun](https://www.perun.network/)__: [Whitepaper](https://eprint.iacr.org/2017/635.pdf)
+
+__[Machinomy](https://machinomy.com/)
+
+__[Connext Network](https://connext.network/)__
+
+__[Finality Labs](https://finalitylabs.io/)__
+
+__[10fold](https://www.tenfoldprotocol.io/)__
+
+__[Truebit](https://truebit.io/)__
+
+__[Plasma](https://plasma.io/)__: [Whitepaper](https://plasma.io/plasma.pdf)
+
+__[Polkadot](https://polkadot.network/)__
+
+__[Cosmos](https://cosmos.network/)__
+
+__[0Chain](https://0chain.net/)__
+
+__[IOTA](https://www.iota.org)__: [Whitepaper](https://assets.ctfassets.net/r1dr6vzfxhev/2t4uxvsIqk0EUau6g2sw0g/45eae33637ca92f85dd9f4a3a218e1ec/iota1_4_3.pdf) 
+
+__[Alacris](https://alacris.io/)__
+
+__[OmiseGo](https://omisego.network/)__: [Whitepaper](https://cdn.omise.co/omg/whitepaper.pdf)
+
+__[Skale Labs](https://www.skalelabs.com/)__
+
+__[Transmute](https://www.transmute.industries/)__
+
+__[Loom Network](https://loomx.io/)__
+
+__[Alpha Wallet](https://alphawallet.com/)__
