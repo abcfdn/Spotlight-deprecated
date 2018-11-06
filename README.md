@@ -6,7 +6,6 @@ __[Difinity](https://dfinity.org/)__ : [Whitepaper](https://dfinity.org/pdf-view
 
 __[Emotiq](https://emotiq.ch/)__ : [Whitepaper](https://emotiq.ch/whitepaper.pdf), [Yellowpaper](https://emotiq.ch/yellowpaper.pdf)
 
-__[Extrēmus](http://emseco.io/)__ :  [Whitepaper](http://emseco.io/file/whitepaper_v2.2.pdf)
 
 __[Ethereum](https://www.ethereum.org/)__ :  [Whitepaper](https://github.com/ethereum/wiki/wiki/White-Paper), [Github](https://github.com/ethereum), [YellowPaper](https://ethereum.github.io/yellowpaper/paper.pdf)
 
@@ -16,19 +15,25 @@ __[Harmony](https://harmony.one/?utm_source=icodrops)__ :  [Whitepaper](https://
 
 __[IOST](https://iost.io/)__ :  [Whitepaper](https://iost.io/iost-whitepaper/), [Developer Guide](http://developers.iost.io/docs/en/1-getting-started/doc1.html)
 
-__[Intervalue](https://www.inve.one/)__ :  [Whitepaper](https://www.inve.one/InterValue_whitepaper_en.pdf)
-
-__[MOAC](https://www.moac.io/)__ :  [Whitepaper](https://www.moac.io/resource_Whitepaper.html)
+__[Byteball](https://byteball.org/)__: [Whitepaper](https://byteball.org/Byteball.pdf)
 
 __[Near Protocol](https://nearprotocol.com/)__ : [PositionPaper](https://drive.google.com/drive/u/3/folders/13ktVNuyor8HES9OxxjwlPZHdmRVx_yXT)
 
-__[Nervos](https://www.nervos.org/)__ :  [Whitepaper](https://github.com/NervosFoundation/binary/blob/master/whitepaper/nervos-ckb.pdf), [Github](https://github.com/NervosFoundation)
+__[Extrēmus](http://emseco.io/)__ :  [Whitepaper](http://emseco.io/file/whitepaper_v2.2.pdf)
+
+__[Intervalue](https://www.inve.one/)__ :  [Whitepaper](https://www.inve.one/InterValue_whitepaper_en.pdf)
+
+__[IOTA](https://www.iota.org)__: [Whitepaper](https://assets.ctfassets.net/r1dr6vzfxhev/2t4uxvsIqk0EUau6g2sw0g/45eae33637ca92f85dd9f4a3a218e1ec/iota1_4_3.pdf) 
+
+__[MOAC](https://www.moac.io/)__ :  [Whitepaper](https://www.moac.io/resource_Whitepaper.html)
 
 __[Quarkchain](https://quarkchain.io/)__ :  [Whitepaper](https://quarkchain.io/QUARK%20CHAIN%20Public%20Version%200.3.5.pdf), [Github](https://github.com/QuarkChain)
 
 __[RChain](https://www.rchain.coop/)__ :  [Documentation](https://rchain-architecture.readthedocs.io/en/latest/)
 
 __[Zillqa](https://zilliqa.com/)__ : [Whitepaper](https://docs.zilliqa.com/whitepaper.pdf), [PositionPaper](https://docs.zilliqa.com/positionpaper.pdf)
+
+__[Nervos](https://www.nervos.org/)__ :  [Whitepaper](https://github.com/NervosFoundation/binary/blob/master/whitepaper/nervos-ckb.pdf), [Github](https://github.com/NervosFoundation)
 
 __[Lightning network](https://lightning.network/)__
 
@@ -46,7 +51,7 @@ __[Trinity](https://trinity.tech/#/)__
 
 __[Perun](https://www.perun.network/)__: [Whitepaper](https://eprint.iacr.org/2017/635.pdf)
 
-__[Machinomy](https://machinomy.com/)
+__[Machinomy](https://machinomy.com/)__
 
 __[Connext Network](https://connext.network/)__
 
@@ -63,8 +68,6 @@ __[Polkadot](https://polkadot.network/)__
 __[Cosmos](https://cosmos.network/)__
 
 __[0Chain](https://0chain.net/)__
-
-__[IOTA](https://www.iota.org)__: [Whitepaper](https://assets.ctfassets.net/r1dr6vzfxhev/2t4uxvsIqk0EUau6g2sw0g/45eae33637ca92f85dd9f4a3a218e1ec/iota1_4_3.pdf) 
 
 __[Alacris](https://alacris.io/)__
 
